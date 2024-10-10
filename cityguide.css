@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    
+}
+
+html, head, body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+
+}
+/*
+Sets up main header of page to be a fixed, distinct entity that 
+follows the user down the page 
+*/
+#guide-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: navy;
+    color:white;
+    padding:0;
+    line-height: 2;
+    padding-bottom: 35px;
+    font-weight: bold;
+}
+/* 
+Having in-line block on both nav and h1 ensures we can fit both 
+the list and the h1 elements into the guide-head in a neat row!
+*/
+nav{
+    display: inline-block;
+    text-align: right;
+    margin-left: 750px;
+}
+nav ul li{
+    display: inline-block;
+    top: 0px;
+
+}
+h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+}
+footer{
+    background-color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin: 0;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-weight: normal;
+
+}
+section{
+    background-color: lightblue;
+    border-radius: 20px;
+    margin-bottom:15px;
+    text-wrap: balance;
+    padding:20px;
+   
+}
+header{
+
+ background-color: rgb(70, 125, 189);   
+ color:white;
+ text-align: center;
+ padding: 3px;
+ border-radius: 10px;
+ margin: 15px;
+ align-items: center;
+ box-shadow: inset 0 0 10px #777777;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    margin:5px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#WaldorfAstoria ul li::marker{
+    content: '😍';
+}
+table{
+    border-spacing: 25px 20x;
+    padding: 10px;
+    font-size: 24px;
+    border-width: 2px;
+    
+}
+
+table tr{
+    padding: 10px;
+}
+table tr:nth-child(even){
+    background-color: aqua;
+}
+table tr:nth-child(odd){
+    background-color: white;
+}
+table tr td{
+    padding: 5px;
+}
+table thead{
+    background-color: aquamarine;
+    font-weight:bold;
+    font-style: italic;
+}
+#guide-description{
+    display: flex;
+    padding-top:90px;
+    flex-flow: column-reverse wrap;
+}
+#guide-description p{
+    width: 40%;
+}
+#guide-description img{
+    width: 40%;
+}
+img{
+    border-radius:10px;
+}
+
+a, a:link{
+    color:white;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:yellow;
+}
+#newsletterForm input[type=submit]{
+    padding: 4px 5px;
+    margin: 5px;
+    background-color: azure;
+    border-radius: 10px;   
+    box-shadow: 0 0 5px 5px #777777;
+}
